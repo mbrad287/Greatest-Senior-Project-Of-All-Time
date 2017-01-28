@@ -1,0 +1,50 @@
+/*
+     Name:         Michael Bradley
+     Project:      Project: Final Phase
+     Purpose:      Create an on-line bookstore for viewing and ordering books.
+     URL:          http://unixweb.kutztown.edu/~mbrad287/index.html
+     Course:       CSC 242 - Spring 2016
+     Due Date:     May 2, 2016
+*/
+<style type = "text/css">
+body {
+  background-image:url(Books.jpg);
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: top right; 
+  /*background: cyan */
+  font-family: times, serif; 
+  font-size:14pt; 
+}
+
+.text {
+  background-color: red;
+  font-family: times, serif; 
+  font-size:14pt; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+<style type = "text/css">
